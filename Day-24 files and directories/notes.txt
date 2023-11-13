@@ -1,0 +1,17 @@
+DAY - 24 
+FILES AND DIRECTORIES
+
+with open("my_file.txt", mode="a") as file:     //append
+    file.write("\nIs a good boyy.")
+
+with open("my_file.txt") as file1:		//read
+    c = file1.read()
+    print(c)
+
+with open("my_file.txt", mode="w") as file:     //write
+    file.write("\nIs a good boyy.")
+
+
+
+relative file paths
+absolute file paths
