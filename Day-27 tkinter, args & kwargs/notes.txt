@@ -1,0 +1,19 @@
+import tkinter
+
+window = tkinter.Tk()
+window.title("Tkinter")
+window.minsize(500, 300)
+
+#Label
+
+label = tkinter.Label(text="This is label", font=("Arial", 20, "italic"))
+label.pack()
+
+
+window.mainloop()
+
+
+
+pack
+place
+grid
