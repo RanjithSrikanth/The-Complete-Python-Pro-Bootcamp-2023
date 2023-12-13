@@ -1,0 +1,17 @@
+SMTP - Simple Mail Transfer Protocol
+
+ssmtplib ----- library
+
+
+email provider
+
+gmail - smtp.gmail.com
+hotmail - smtp.live.com
+yaahoo - smtp.mail.yahoo.com
+
+
+starttls() - tls(transport layer security) - makes connection secure
+
+
+error - connection = smtplib.SMTP("smtp.gmail.com", 587) ---- add 587
+ 
