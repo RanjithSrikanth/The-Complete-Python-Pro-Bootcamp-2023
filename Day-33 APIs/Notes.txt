@@ -1,0 +1,22 @@
+API - Application Programming Interface
+	is a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system.
+
+
+interface between the program and the external program, send request , if the rules followerd properly the request will be valid and data will be provided.
+
+endpoints - url
+
+response :
+1xx : Hold On
+2xx : here you go
+3xx : Go away (no permission)
+4xx : you screwed up (Bad request)
+5xx : i screwed up (may be server down)
+
+
+raise_for_status - retuens error code of HTTP code status.
+
+API parameters
+
+
+sunset and sunrise api = https://sunrise-sunset.org/api 
