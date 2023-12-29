@@ -1,0 +1,35 @@
+API key - used authenticate ourself with the api, key will be passed as one of the parameter.
+
+
+https://api.openweathermap.org/data/3.0/onecall?lat={20}&lon={78}&exclude={part}&appid=182ffa80f024baf208f09b444b658bc5
+
+
+openweathermap ---- weather API
+online json viewer - stack.hu
+ventusky --- world map for weather
+
+
+twilio API ---- message service API, phone call, havibg virtual mobile number, etc.
+
+Twilio Account:
+
+from twilio.rest import Client
+
+Environment Variables :
+1.Conveniance
+2.Security
+
+The API key and auth token should be hidden if it a paid account,
+for that we have to have api key and auth token as a env variable.
+
+export owm_api_k=78asdjhghghghgkjhhasdhkaa
+
+for access
+import os
+api_key = os.environ.get("owm_api_k")
+
+do retype the command with export apikey env; export token enc; python3 main.py
+
+api
+
+apilist.fun
