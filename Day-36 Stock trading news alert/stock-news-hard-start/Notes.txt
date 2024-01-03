@@ -1,0 +1,4 @@
+alphavantage API key - VV44IY2DLQQN0XVR
+
+
+newsapi API key - 2c827bc6109e40dd850e3c32e0f58b9e
