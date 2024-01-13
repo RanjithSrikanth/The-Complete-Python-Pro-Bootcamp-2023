@@ -1,0 +1,20 @@
+HTTP Request :
+
+get
+put - update
+post - give data to external system
+delete - delete
+
+requests.put()
+requests.post()
+
+requests Pixela authentication :
+
+    "token" : "28fdrewe20sdsf",
+    "username" : "ranjith2828",
+
+Walking graph :
+
+https://pixe.la/v1/users/ranjith2828/graphs/graph1.html
+
+Authentication --- is for security issues, providing secret token 
